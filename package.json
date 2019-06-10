@@ -1,0 +1,38 @@
+{
+  "name": "homey-theme",
+  "displayName": "Homey",
+  "description": "Warm and cosy theme",
+  "publisher": "kepler0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notAlaanor/homey-theme.git"
+  },
+  "keywords": [
+    "dark",
+    "warm",
+    "fire",
+    "orange",
+    "red"
+  ],
+  "icon": ".media/icon.png",
+  "galleryBanner": {
+    "color": "#1C2337",
+    "theme": "dark"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.35.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Homey",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Homey-color-theme.json"
+      }
+    ]
+  }
+}
